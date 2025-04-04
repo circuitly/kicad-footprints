@@ -1,5 +1,5 @@
 (footprint "TO-220-2_Horizontal_TabDown"
-	(version 20240108)
+	(version 20241229)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
 	(descr "TO-220-2, Horizontal, RM 5.08mm, see https://www.centralsemi.com/PDFS/CASE/TO-220-2PD.PDF")
@@ -212,8 +212,8 @@
 			(width 0.1)
 			(type solid)
 		)
+		(fill no)
 		(layer "F.Fab")
-		(fill none)
 	)
 	(fp_text user "${REFERENCE}"
 		(at 2.54 -20.58 0)
@@ -235,17 +235,18 @@
 		(at 0 0)
 		(size 2 2)
 		(drill 1.1)
-		(remove_unused_layers no)
 		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
 	)
 	(pad "2" thru_hole circle
 		(at 5.08 0)
 		(size 2 2)
 		(drill 1.1)
-		(remove_unused_layers no)
 		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-220-2_Horizontal_TabDown.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-220-2_Horizontal_TabDown.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

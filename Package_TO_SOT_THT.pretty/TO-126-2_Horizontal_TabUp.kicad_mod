@@ -1,5 +1,5 @@
 (footprint "TO-126-2_Horizontal_TabUp"
-	(version 20240108)
+	(version 20241229)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
 	(descr "TO-126-2, Horizontal, RM 5.08mm, see https://www.caddock.com/online_catalog/mrktg_lit/MP9000_Series.pdf")
@@ -176,8 +176,8 @@
 			(width 0.1)
 			(type solid)
 		)
+		(fill no)
 		(layer "F.Fab")
-		(fill none)
 	)
 	(fp_text user "${REFERENCE}"
 		(at 2.54 16.12 0)
@@ -199,17 +199,18 @@
 		(at 0 0)
 		(size 1.8 1.8)
 		(drill 1)
-		(remove_unused_layers no)
 		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
 	)
 	(pad "2" thru_hole circle
 		(at 5.08 0)
 		(size 1.8 1.8)
 		(drill 1)
-		(remove_unused_layers no)
 		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-126-2_Horizontal_TabUp.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-126-2_Horizontal_TabUp.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

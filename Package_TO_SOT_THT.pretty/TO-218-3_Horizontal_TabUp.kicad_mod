@@ -1,5 +1,5 @@
 (footprint "TO-218-3_Horizontal_TabUp"
-	(version 20240108)
+	(version 20241229)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
 	(descr "TO-218-3, Horizontal, RM 5.475mm, SOT-93, see https://www.vishay.com/docs/95214/fto218.pdf")
@@ -365,8 +365,8 @@
 			(width 0.1)
 			(type solid)
 		)
+		(fill no)
 		(layer "F.Fab")
-		(fill none)
 	)
 	(fp_text user "${REFERENCE}"
 		(at 5.475 23.45 0)
@@ -388,24 +388,25 @@
 		(at 0 0)
 		(size 2.5 3.5)
 		(drill 1.5)
-		(remove_unused_layers no)
 		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
 	)
 	(pad "2" thru_hole oval
 		(at 5.475 0)
 		(size 2.5 3.5)
 		(drill 1.5)
-		(remove_unused_layers no)
 		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
 	)
 	(pad "3" thru_hole oval
 		(at 10.95 0)
 		(size 2.5 3.5)
 		(drill 1.5)
-		(remove_unused_layers no)
 		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-218-3_Horizontal_TabUp.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-218-3_Horizontal_TabUp.wrl"
 		(offset
 			(xyz 0 0 0)
 		)
