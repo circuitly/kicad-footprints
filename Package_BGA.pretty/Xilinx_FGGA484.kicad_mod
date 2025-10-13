@@ -3,7 +3,7 @@
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
 	(descr "Spartan-7 BGA, NSMD pad definition Appendix A, 23x23mm, 484 Ball, 22x22 Layout, 1mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=264")
-	(tags "BGA 484 1 F G G A 4 8 4")
+	(tags "BGA 484 1 FGGA484")
 	(solder_mask_margin 0.05)
 	(property "Reference" "REF**"
 		(at 0 -12.5 0)
@@ -3071,7 +3071,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Package_BGA.3dshapes/Xilinx_FGGA484.wrl"
+	(model "${KICAD9_3DMODEL_DIR}/Package_BGA.3dshapes/Xilinx_FGGA484.step"
 		(offset
 			(xyz 0 0 0)
 		)

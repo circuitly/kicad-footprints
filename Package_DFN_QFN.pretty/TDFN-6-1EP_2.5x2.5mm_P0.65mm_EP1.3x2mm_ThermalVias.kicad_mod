@@ -26,8 +26,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -1.25 -1.36)
-		(end 1.25 -1.36)
+		(start -1.36 -1.36)
+		(end 1.36 -1.36)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -35,8 +35,44 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -1.25 1.36)
-		(end 1.25 1.36)
+		(start -1.36 -1.06)
+		(end -1.36 -1.36)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -1.36 1.36)
+		(end -1.36 1.06)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 1.36 -1.36)
+		(end 1.36 -1.06)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 1.36 1.06)
+		(end 1.36 1.36)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 1.36 1.36)
+		(end -1.36 1.36)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -45,9 +81,9 @@
 	)
 	(fp_poly
 		(pts
-			(xy -1.79 -0.97)
-			(xy -2.27 -0.97)
-			(xy -1.79 -1.45)
+			(xy -1.89 -0.65)
+			(xy -2.22 -0.41)
+			(xy -2.22 -0.89)
 		)
 		(stroke
 			(width 0.12)
@@ -56,14 +92,112 @@
 		(fill yes)
 		(layer "F.SilkS")
 	)
-	(fp_rect
-		(start -1.88 -1.5)
-		(end 1.88 1.5)
+	(fp_line
+		(start -1.88 -1.05)
+		(end -1.5 -1.05)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
-		(fill no)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start -1.88 1.05)
+		(end -1.88 -1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start -1.5 -1.5)
+		(end 1.5 -1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start -1.5 -1.05)
+		(end -1.5 -1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start -1.5 1.05)
+		(end -1.88 1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start -1.5 1.5)
+		(end -1.5 1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 1.5 -1.5)
+		(end 1.5 -1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 1.5 -1.05)
+		(end 1.88 -1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 1.5 1.05)
+		(end 1.5 1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 1.5 1.5)
+		(end -1.5 1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 1.88 -1.05)
+		(end 1.88 1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 1.88 1.05)
+		(end 1.5 1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
 		(layer "F.CrtYd")
 	)
 	(fp_poly
@@ -214,7 +348,7 @@
 		(remove_unused_layers no)
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/TDFN-6-1EP_2.5x2.5mm_P0.65mm_EP1.3x2mm.wrl"
+	(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/TDFN-6-1EP_2.5x2.5mm_P0.65mm_EP1.3x2mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

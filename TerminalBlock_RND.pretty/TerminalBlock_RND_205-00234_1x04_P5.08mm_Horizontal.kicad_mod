@@ -27,15 +27,6 @@
 	(attr through_hole)
 	(fp_line
 		(start -2.66 -4.52)
-		(end -2.66 4.17)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start -2.66 -4.52)
 		(end 17.9 -4.52)
 		(stroke
 			(width 0.12)
@@ -72,16 +63,7 @@
 	)
 	(fp_line
 		(start -2.66 4.17)
-		(end -0.3 4.17)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start -1.25 -4.4)
-		(end -1.25 -3.4)
+		(end -2.66 -4.52)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -99,7 +81,7 @@
 	)
 	(fp_line
 		(start -1.25 -3.4)
-		(end 1.25 -3.4)
+		(end -1.25 -4.4)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -107,8 +89,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 0.3 4.17)
-		(end 17.9 4.17)
+		(start -0.3 4.17)
+		(end -2.66 4.17)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -125,8 +107,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 3.83 -4.4)
-		(end 3.83 -3.4)
+		(start 1.25 -3.4)
+		(end -1.25 -3.4)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -144,7 +126,7 @@
 	)
 	(fp_line
 		(start 3.83 -3.4)
-		(end 6.33 -3.4)
+		(end 3.83 -4.4)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -161,8 +143,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 8.91 -4.4)
-		(end 8.91 -3.4)
+		(start 6.33 -3.4)
+		(end 3.83 -3.4)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -180,7 +162,7 @@
 	)
 	(fp_line
 		(start 8.91 -3.4)
-		(end 11.41 -3.4)
+		(end 8.91 -4.4)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -197,8 +179,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 13.99 -4.4)
-		(end 13.99 -3.4)
+		(start 11.41 -3.4)
+		(end 8.91 -3.4)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -216,7 +198,7 @@
 	)
 	(fp_line
 		(start 13.99 -3.4)
-		(end 16.49 -3.4)
+		(end 13.99 -4.4)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -233,8 +215,26 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
+		(start 16.49 -3.4)
+		(end 13.99 -3.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
 		(start 17.9 -4.52)
 		(end 17.9 4.17)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 17.9 4.17)
+		(end 0.3 4.17)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -363,7 +363,7 @@
 		(layer "F.Fab")
 	)
 	(fp_line
-		(start 0.796 -0.948)
+		(start 0.795 -0.948)
 		(end -0.948 0.795)
 		(stroke
 			(width 0.1)
@@ -373,7 +373,7 @@
 	)
 	(fp_line
 		(start 0.948 -0.795)
-		(end -0.796 0.948)
+		(end -0.795 0.948)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -417,7 +417,7 @@
 		(layer "F.Fab")
 	)
 	(fp_line
-		(start 5.876 -0.948)
+		(start 5.875 -0.948)
 		(end 4.132 0.795)
 		(stroke
 			(width 0.1)
@@ -427,7 +427,7 @@
 	)
 	(fp_line
 		(start 6.028 -0.795)
-		(end 4.284 0.948)
+		(end 4.285 0.948)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -471,7 +471,7 @@
 		(layer "F.Fab")
 	)
 	(fp_line
-		(start 10.956 -0.948)
+		(start 10.955 -0.948)
 		(end 9.212 0.795)
 		(stroke
 			(width 0.1)
@@ -481,7 +481,7 @@
 	)
 	(fp_line
 		(start 11.108 -0.795)
-		(end 9.364 0.948)
+		(end 9.365 0.948)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -525,7 +525,7 @@
 		(layer "F.Fab")
 	)
 	(fp_line
-		(start 16.036 -0.948)
+		(start 16.035 -0.948)
 		(end 14.292 0.795)
 		(stroke
 			(width 0.1)
@@ -535,7 +535,7 @@
 	)
 	(fp_line
 		(start 16.188 -0.795)
-		(end 14.444 0.948)
+		(end 14.445 0.948)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -658,7 +658,7 @@
 		(remove_unused_layers no)
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/TerminalBlock_RND.3dshapes/TerminalBlock_RND_205-00234_1x04_P5.08mm_Horizontal.wrl"
+	(model "${KICAD9_3DMODEL_DIR}/TerminalBlock_RND.3dshapes/TerminalBlock_RND_205-00234_1x04_P5.08mm_Horizontal.step"
 		(offset
 			(xyz 0 0 0)
 		)

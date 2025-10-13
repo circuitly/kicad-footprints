@@ -27,15 +27,6 @@
 	(attr smd)
 	(fp_line
 		(start -2.61 -2.61)
-		(end -2.61 -0.88)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start -2.61 -2.61)
 		(end 2.61 -2.61)
 		(stroke
 			(width 0.12)
@@ -44,8 +35,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -2.61 0.88)
-		(end -2.61 2.61)
+		(start -2.61 -0.88)
+		(end -2.61 -2.61)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -54,7 +45,7 @@
 	)
 	(fp_line
 		(start -2.61 2.61)
-		(end 2.61 2.61)
+		(end -2.61 0.88)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -82,6 +73,15 @@
 	(fp_line
 		(start 2.61 2.03)
 		(end 2.61 2.61)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 2.61 2.61)
+		(end -2.61 2.61)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -165,7 +165,7 @@
 		(roundrect_rratio 0.192308)
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Potentiometer_SMD.3dshapes/Potentiometer_Vishay_TS53YL_Vertical.wrl"
+	(model "${KICAD9_3DMODEL_DIR}/Potentiometer_SMD.3dshapes/Potentiometer_Vishay_TS53YL_Vertical.step"
 		(offset
 			(xyz 0 0 0)
 		)

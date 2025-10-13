@@ -140,15 +140,6 @@
 		(layer "F.Fab")
 	)
 	(fp_line
-		(start -18.9 2.45)
-		(end 18.9 2.45)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
 		(start -15.5 2.45)
 		(end -15 1.45)
 		(stroke
@@ -160,6 +151,15 @@
 	(fp_line
 		(start -15 1.45)
 		(end -14.5 2.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start 18.9 2.45)
+		(end -18.9 2.45)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -511,7 +511,7 @@
 		(remove_unused_layers no)
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Connector_Harwin.3dshapes/Harwin_Gecko_G125-MS15005M2P_2x25_P1.25mm_Vertical.wrl"
+	(model "${KICAD9_3DMODEL_DIR}/Connector_Harwin.3dshapes/Harwin_Gecko_G125-MS15005M2P_2x25_P1.25mm_Vertical.step"
 		(offset
 			(xyz 0 0 0)
 		)

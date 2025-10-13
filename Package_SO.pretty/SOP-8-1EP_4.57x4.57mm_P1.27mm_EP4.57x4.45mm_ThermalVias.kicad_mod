@@ -26,8 +26,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start 0 -2.515)
-		(end -2.285 -2.515)
+		(start -2.395 -2.515)
+		(end 2.395 -2.515)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -35,8 +35,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 0 -2.515)
-		(end 2.285 -2.515)
+		(start -2.395 -2.485)
+		(end -2.395 -2.515)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -44,8 +44,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 0 2.515)
-		(end -2.285 2.515)
+		(start -2.395 2.515)
+		(end -2.395 2.485)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -53,8 +53,26 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 0 2.515)
-		(end 2.285 2.515)
+		(start 2.395 -2.515)
+		(end 2.395 -2.485)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 2.395 2.485)
+		(end 2.395 2.515)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 2.395 2.515)
+		(end -2.395 2.515)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -63,9 +81,9 @@
 	)
 	(fp_poly
 		(pts
-			(xy -5.835 -1.905)
-			(xy -6.165 -1.665)
-			(xy -6.165 -2.145)
+			(xy -5.84 -1.91)
+			(xy -6.17 -1.67)
+			(xy -6.17 -2.15)
 		)
 		(stroke
 			(width 0.12)
@@ -74,59 +92,127 @@
 		(fill yes)
 		(layer "F.SilkS")
 	)
-	(fp_rect
-		(start -5.82 -2.54)
-		(end 5.82 2.54)
+	(fp_line
+		(start -5.83 -2.51)
+		(end -2.54 -2.51)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
-		(fill no)
 		(layer "F.CrtYd")
 	)
 	(fp_line
-		(start -2.285 -1.285)
-		(end -1.285 -2.285)
+		(start -5.83 2.51)
+		(end -5.83 -2.51)
 		(stroke
-			(width 0.1)
+			(width 0.05)
 			(type solid)
 		)
-		(layer "F.Fab")
+		(layer "F.CrtYd")
 	)
 	(fp_line
-		(start -2.285 2.285)
-		(end -2.285 -1.285)
+		(start -2.54 -2.54)
+		(end 2.54 -2.54)
 		(stroke
-			(width 0.1)
+			(width 0.05)
 			(type solid)
 		)
-		(layer "F.Fab")
+		(layer "F.CrtYd")
 	)
 	(fp_line
-		(start -1.285 -2.285)
-		(end 2.285 -2.285)
+		(start -2.54 -2.51)
+		(end -2.54 -2.54)
 		(stroke
-			(width 0.1)
+			(width 0.05)
 			(type solid)
 		)
-		(layer "F.Fab")
+		(layer "F.CrtYd")
 	)
 	(fp_line
-		(start 2.285 -2.285)
-		(end 2.285 2.285)
+		(start -2.54 2.51)
+		(end -5.83 2.51)
 		(stroke
-			(width 0.1)
+			(width 0.05)
 			(type solid)
 		)
-		(layer "F.Fab")
+		(layer "F.CrtYd")
 	)
 	(fp_line
-		(start 2.285 2.285)
-		(end -2.285 2.285)
+		(start -2.54 2.54)
+		(end -2.54 2.51)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 2.54 -2.54)
+		(end 2.54 -2.51)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 2.54 -2.51)
+		(end 5.83 -2.51)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 2.54 2.51)
+		(end 2.54 2.54)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 2.54 2.54)
+		(end -2.54 2.54)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 5.83 -2.51)
+		(end 5.83 2.51)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 5.83 2.51)
+		(end 2.54 2.51)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_poly
+		(pts
+			(xy -2.285 -1.285)
+			(xy -2.285 2.285)
+			(xy 2.285 2.285)
+			(xy 2.285 -2.285)
+			(xy -1.285 -2.285)
+		)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_text user "${REFERENCE}"
@@ -274,7 +360,7 @@
 		(remove_unused_layers no)
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/SOP-8-1EP_4.57x4.57mm_P1.27mm_EP4.57x4.45mm.wrl"
+	(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/SOP-8-1EP_4.57x4.57mm_P1.27mm_EP4.57x4.45mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -27,15 +27,6 @@
 	(attr through_hole)
 	(fp_line
 		(start -0.62 -2.62)
-		(end -0.62 -1.88)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start -0.62 -2.62)
 		(end 4.62 -2.62)
 		(stroke
 			(width 0.12)
@@ -44,8 +35,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -0.62 1.88)
-		(end -0.62 2.62)
+		(start -0.62 -1.88)
+		(end -0.62 -2.62)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -54,7 +45,7 @@
 	)
 	(fp_line
 		(start -0.62 2.62)
-		(end 4.62 2.62)
+		(end -0.62 1.88)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -73,6 +64,15 @@
 	(fp_line
 		(start 4.62 1.88)
 		(end 4.62 2.62)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 4.62 2.62)
+		(end -0.62 2.62)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -117,15 +117,6 @@
 	)
 	(fp_line
 		(start -0.5 -2.5)
-		(end -0.5 2.5)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -0.5 -2.5)
 		(end 4.5 -2.5)
 		(stroke
 			(width 0.1)
@@ -135,7 +126,7 @@
 	)
 	(fp_line
 		(start -0.5 2.5)
-		(end 4.5 2.5)
+		(end -0.5 -2.5)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -144,7 +135,7 @@
 	)
 	(fp_line
 		(start 3.273 -1.517)
-		(end 0.483 1.272)
+		(end 0.483 1.273)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -163,6 +154,15 @@
 	(fp_line
 		(start 4.5 -2.5)
 		(end 4.5 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start 4.5 2.5)
+		(end -0.5 2.5)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -204,7 +204,7 @@
 		(remove_unused_layers no)
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/TerminalBlock_MetzConnect.3dshapes/TerminalBlock_MetzConnect_360410_1x01_Horizontal_ScrewM3.0.wrl"
+	(model "${KICAD9_3DMODEL_DIR}/TerminalBlock_MetzConnect.3dshapes/TerminalBlock_MetzConnect_360410_1x01_Horizontal_ScrewM3.0.step"
 		(offset
 			(xyz 0 0 0)
 		)

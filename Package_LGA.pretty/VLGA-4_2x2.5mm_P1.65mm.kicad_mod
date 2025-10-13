@@ -26,8 +26,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -1 1.46)
-		(end 1 1.46)
+		(start -0.89 -1.46)
+		(end 1.11 -1.46)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -35,8 +35,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -0.89 -1.46)
-		(end 1 -1.46)
+		(start 1.11 1.46)
+		(end -1.11 1.46)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -116,7 +116,7 @@
 		(roundrect_rratio 0.25)
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Package_LGA.3dshapes/VLGA-4_2x2.5mm_P1.65mm.wrl"
+	(model "${KICAD9_3DMODEL_DIR}/Package_LGA.3dshapes/VLGA-4_2x2.5mm_P1.65mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -27,7 +27,7 @@
 	(attr through_hole)
 	(fp_line
 		(start -1.255 -2.335)
-		(end -1.255 7.415)
+		(end 3.795 -2.335)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -35,7 +35,7 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 3.795 -2.335)
+		(start -1.255 7.415)
 		(end -1.255 -2.335)
 		(stroke
 			(width 0.12)
@@ -72,8 +72,8 @@
 		(layer "F.CrtYd")
 	)
 	(fp_rect
-		(start 3.685 -2.225)
-		(end -1.145 7.305)
+		(start -1.145 -2.225)
+		(end 3.685 7.305)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -113,7 +113,7 @@
 		(remove_unused_layers no)
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Bourns_3386X_Horizontal.wrl"
+	(model "${KICAD9_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Bourns_3386X_Horizontal.step"
 		(offset
 			(xyz 0 0 0)
 		)

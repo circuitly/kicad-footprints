@@ -26,8 +26,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -1.25 1.81)
-		(end 1.25 1.81)
+		(start -1.36 -1.81)
+		(end 1.36 -1.81)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -35,8 +35,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -1.13 -1.81)
-		(end 1.25 -1.81)
+		(start 1.36 1.81)
+		(end -1.36 1.81)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -45,9 +45,9 @@
 	)
 	(fp_poly
 		(pts
-			(xy -1.37 -1.69)
-			(xy -1.85 -1.69)
-			(xy -1.37 -2.17)
+			(xy -1.49 -1.25)
+			(xy -1.82 -1.01)
+			(xy -1.82 -1.49)
 		)
 		(stroke
 			(width 0.12)
@@ -128,7 +128,7 @@
 		(roundrect_rratio 0.25)
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Oscillator.3dshapes/Oscillator_SMD_Silicon_Labs_LGA-6_2.5x3.2mm_P1.25mm.wrl"
+	(model "${KICAD9_3DMODEL_DIR}/Oscillator.3dshapes/Oscillator_SMD_Silicon_Labs_LGA-6_2.5x3.2mm_P1.25mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

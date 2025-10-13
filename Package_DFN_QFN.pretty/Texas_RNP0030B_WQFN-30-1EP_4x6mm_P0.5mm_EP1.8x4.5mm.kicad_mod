@@ -3,7 +3,7 @@
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
 	(descr "Texas RNP0030B WQFN, 30 Pin (https://www.ti.com/lit/ds/symlink/lm76003-q1.pdf#page=53), generated with kicad-footprint-generator ipc_noLead_generator.py")
-	(tags "Texas WQFN NoLead")
+	(tags "Texas WQFN NoLead Texas_RNP0030E")
 	(property "Reference" "REF**"
 		(at 0 -4.33 0)
 		(layer "F.SilkS")
@@ -26,8 +26,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -2.11 3.11)
-		(end -2.11 2.885)
+		(start -2.11 -3.11)
+		(end -1.135 -3.11)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -35,8 +35,17 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -1.135 -3.11)
-		(end -1.81 -3.11)
+		(start -2.11 -2.885)
+		(end -2.11 -3.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -2.11 3.11)
+		(end -2.11 2.885)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -62,15 +71,6 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 1.135 3.11)
-		(end 2.11 3.11)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
 		(start 2.11 -3.11)
 		(end 2.11 -2.885)
 		(stroke
@@ -80,8 +80,17 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
+		(start 2.11 2.885)
+		(end 2.11 3.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
 		(start 2.11 3.11)
-		(end 2.11 2.885)
+		(end 1.135 3.11)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -90,9 +99,9 @@
 	)
 	(fp_poly
 		(pts
-			(xy -2.11 -3.11)
-			(xy -2.35 -3.44)
-			(xy -1.87 -3.44)
+			(xy -2.64 -2.5)
+			(xy -2.97 -2.26)
+			(xy -2.97 -2.74)
 		)
 		(stroke
 			(width 0.12)
@@ -101,14 +110,184 @@
 		(fill yes)
 		(layer "F.SilkS")
 	)
-	(fp_rect
-		(start -2.63 -3.63)
-		(end 2.63 3.63)
+	(fp_line
+		(start -2.63 -2.88)
+		(end -2.25 -2.88)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
-		(fill no)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start -2.63 2.88)
+		(end -2.63 -2.88)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start -2.25 -3.25)
+		(end -1.13 -3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start -2.25 -2.88)
+		(end -2.25 -3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start -2.25 2.88)
+		(end -2.63 2.88)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start -2.25 3.25)
+		(end -2.25 2.88)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start -1.13 -3.63)
+		(end 1.13 -3.63)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start -1.13 -3.25)
+		(end -1.13 -3.63)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start -1.13 3.25)
+		(end -2.25 3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start -1.13 3.63)
+		(end -1.13 3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 1.13 -3.63)
+		(end 1.13 -3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 1.13 -3.25)
+		(end 2.25 -3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 1.13 3.25)
+		(end 1.13 3.63)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 1.13 3.63)
+		(end -1.13 3.63)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 2.25 -3.25)
+		(end 2.25 -2.88)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 2.25 -2.88)
+		(end 2.63 -2.88)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 2.25 2.88)
+		(end 2.25 3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 2.25 3.25)
+		(end 1.13 3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 2.63 -2.88)
+		(end 2.63 2.88)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 2.63 2.88)
+		(end 2.25 2.88)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
 		(layer "F.CrtYd")
 	)
 	(fp_poly
@@ -372,7 +551,7 @@
 		(zone_connect 2)
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/Texas_RNP0030B_WQFN-30-1EP_4x6mm_P0.5mm_EP1.8x4.5mm.wrl"
+	(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/Texas_RNP0030B_WQFN-30-1EP_4x6mm_P0.5mm_EP1.8x4.5mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

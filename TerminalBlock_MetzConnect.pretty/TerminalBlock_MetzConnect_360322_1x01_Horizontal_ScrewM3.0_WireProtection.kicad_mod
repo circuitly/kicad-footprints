@@ -27,15 +27,6 @@
 	(attr through_hole)
 	(fp_line
 		(start -0.12 -2.12)
-		(end -0.12 -1.976)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start -0.12 -2.12)
 		(end 6.12 -2.12)
 		(stroke
 			(width 0.12)
@@ -44,8 +35,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -0.12 1.976)
-		(end -0.12 2.12)
+		(start -0.12 -1.976)
+		(end -0.12 -2.12)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -54,7 +45,7 @@
 	)
 	(fp_line
 		(start -0.12 2.12)
-		(end 6.12 2.12)
+		(end -0.12 1.976)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -64,6 +55,15 @@
 	(fp_line
 		(start 6.12 -2.12)
 		(end 6.12 2.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 6.12 2.12)
+		(end -0.12 2.12)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -108,42 +108,6 @@
 	)
 	(fp_line
 		(start 0 -2)
-		(end 0 0)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 0 -2)
-		(end 2 -2)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 0 0)
-		(end 0 2)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 0 2)
-		(end 2 2)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 2 -2)
 		(end 6 -2)
 		(stroke
 			(width 0.1)
@@ -152,8 +116,8 @@
 		(layer "F.Fab")
 	)
 	(fp_line
-		(start 2 2)
-		(end 6 2)
+		(start 0 2)
+		(end 0 -2)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -162,7 +126,7 @@
 	)
 	(fp_line
 		(start 3.273 -1.517)
-		(end 0.483 1.272)
+		(end 0.483 1.273)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -181,6 +145,15 @@
 	(fp_line
 		(start 6 -2)
 		(end 6 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start 6 2)
+		(end 0 2)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -222,7 +195,7 @@
 		(remove_unused_layers no)
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/TerminalBlock_MetzConnect.3dshapes/TerminalBlock_MetzConnect_360322_1x01_Horizontal_ScrewM3.0_WireProtection.wrl"
+	(model "${KICAD9_3DMODEL_DIR}/TerminalBlock_MetzConnect.3dshapes/TerminalBlock_MetzConnect_360322_1x01_Horizontal_ScrewM3.0_WireProtection.step"
 		(offset
 			(xyz 0 0 0)
 		)

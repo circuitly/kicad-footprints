@@ -81,7 +81,7 @@
 	)
 	(fp_line
 		(start -10.75 -4.45)
-		(end -10.75 4.45)
+		(end -7.94 -4.45)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -89,16 +89,7 @@
 		(layer "F.CrtYd")
 	)
 	(fp_line
-		(start -10.75 4.45)
-		(end 10.75 4.45)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 10.75 -4.45)
+		(start -10.75 -0.15)
 		(end -10.75 -4.45)
 		(stroke
 			(width 0.05)
@@ -107,8 +98,125 @@
 		(layer "F.CrtYd")
 	)
 	(fp_line
-		(start 10.75 4.45)
+		(start -10.25 -0.15)
+		(end -10.75 -0.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start -10.25 2.75)
+		(end -10.25 -0.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start -7.94 -4.45)
+		(end -7.94 -4.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start -7.94 -4.05)
+		(end 7.94 -4.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start -7.65 2.75)
+		(end -10.25 2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start -7.65 4.45)
+		(end -7.65 2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 7.65 2.75)
+		(end 7.65 4.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 7.65 4.45)
+		(end -7.65 4.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 7.94 -4.45)
 		(end 10.75 -4.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 7.94 -4.05)
+		(end 7.94 -4.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 10.25 -0.15)
+		(end 10.25 2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 10.25 2.75)
+		(end 7.65 2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 10.75 -4.45)
+		(end 10.75 -0.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 10.75 -0.15)
+		(end 10.25 -0.15)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -352,7 +460,7 @@
 		(roundrect_rratio 0.138889)
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Connector_JST.3dshapes/JST_ZE_BM10B-ZESS-TBT_1x10-1MP_P1.50mm_Vertical.wrl"
+	(model "${KICAD9_3DMODEL_DIR}/Connector_JST.3dshapes/JST_ZE_BM10B-ZESS-TBT_1x10-1MP_P1.50mm_Vertical.step"
 		(offset
 			(xyz 0 0 0)
 		)

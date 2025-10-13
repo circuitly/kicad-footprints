@@ -27,15 +27,6 @@
 	(attr through_hole)
 	(fp_line
 		(start -3.12 -4.12)
-		(end -3.12 3.92)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start -3.12 -4.12)
 		(end 37.62 -4.12)
 		(stroke
 			(width 0.12)
@@ -72,7 +63,7 @@
 	)
 	(fp_line
 		(start -3.12 3.92)
-		(end -0.3 3.92)
+		(end -3.12 -4.12)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -80,8 +71,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 0.3 3.92)
-		(end 37.62 3.92)
+		(start -0.3 3.92)
+		(end -3.12 3.92)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -313,6 +304,15 @@
 		)
 		(layer "F.SilkS")
 	)
+	(fp_line
+		(start 37.62 3.92)
+		(end 0.3 3.92)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
 	(fp_poly
 		(pts
 			(xy 0 3.92)
@@ -418,7 +418,7 @@
 	)
 	(fp_line
 		(start 1.018 -1.213)
-		(end -1.214 1.018)
+		(end -1.213 1.018)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -436,7 +436,7 @@
 	)
 	(fp_line
 		(start 6.018 -1.213)
-		(end 3.786 1.018)
+		(end 3.787 1.018)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -454,7 +454,7 @@
 	)
 	(fp_line
 		(start 11.018 -1.213)
-		(end 8.786 1.018)
+		(end 8.787 1.018)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -472,7 +472,7 @@
 	)
 	(fp_line
 		(start 16.018 -1.213)
-		(end 13.786 1.018)
+		(end 13.787 1.018)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -490,7 +490,7 @@
 	)
 	(fp_line
 		(start 21.018 -1.213)
-		(end 18.786 1.018)
+		(end 18.787 1.018)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -508,7 +508,7 @@
 	)
 	(fp_line
 		(start 26.018 -1.213)
-		(end 23.786 1.018)
+		(end 23.787 1.018)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -526,7 +526,7 @@
 	)
 	(fp_line
 		(start 31.018 -1.213)
-		(end 28.786 1.018)
+		(end 28.787 1.018)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -544,7 +544,7 @@
 	)
 	(fp_line
 		(start 36.018 -1.213)
-		(end 33.786 1.018)
+		(end 33.787 1.018)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -726,7 +726,7 @@
 		(remove_unused_layers no)
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/TerminalBlock.3dshapes/TerminalBlock_MaiXu_MX126-5.0-08P_1x08_P5.00mm.wrl"
+	(model "${KICAD9_3DMODEL_DIR}/TerminalBlock.3dshapes/TerminalBlock_MaiXu_MX126-5.0-08P_1x08_P5.00mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

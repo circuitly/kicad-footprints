@@ -26,8 +26,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -3.36 -0.92)
-		(end -3.36 0.92)
+		(start -3.36 0.92)
+		(end -3.36 -0.92)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -37,15 +37,6 @@
 	(fp_line
 		(start -2.845 -3.36)
 		(end 3.36 -3.36)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start -2.845 3.36)
-		(end 3.36 3.36)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -64,6 +55,15 @@
 	(fp_line
 		(start 3.36 1.23)
 		(end 3.36 3.36)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 3.36 3.36)
+		(end -2.845 3.36)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -129,7 +129,7 @@
 		(roundrect_rratio 0.125)
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Potentiometer_SMD.3dshapes/Potentiometer_ACP_CA6-VSMD_Vertical.wrl"
+	(model "${KICAD9_3DMODEL_DIR}/Potentiometer_SMD.3dshapes/Potentiometer_ACP_CA6-VSMD_Vertical.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -160,14 +160,14 @@
 		)
 		(layer "F.SilkS")
 	)
-	(fp_arc
-		(start -20.55 3.4)
-		(mid -21.05 3.4)
+	(fp_circle
+		(center -20.8 3.4)
 		(end -20.55 3.4)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
+		(fill no)
 		(layer "F.SilkS")
 	)
 	(fp_line
@@ -975,7 +975,7 @@
 		(roundrect_rratio 0.25)
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Connector_Samtec_HSEC8.3dshapes/Samtec_HSEC8-149-01-X-DV-A-WT_2x49_P0.8mm_Pol27_Socket_WeldTabs.wrl"
+	(model "${KICAD9_3DMODEL_DIR}/Connector_Samtec_HSEC8.3dshapes/Samtec_HSEC8-149-01-X-DV-A-WT_2x49_P0.8mm_Pol27_Socket_WeldTabs.step"
 		(offset
 			(xyz 0 0 0)
 		)
