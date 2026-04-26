@@ -1,8 +1,8 @@
 (footprint "SOIC-20W_7.5x15.4mm_P1.27mm"
-	(version 20241229)
+	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "SOIC, 20 Pin (JEDEC MS-013AD, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_wide-rw/RI_20_1.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
+	(descr "SOIC, 20 Pin (JEDEC MS-013AD, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_wide-rw/RI_20_1.pdf)")
 	(tags "SOIC SO")
 	(property "Reference" "REF**"
 		(at 0 -8.66 0)
@@ -24,7 +24,19 @@
 			)
 		)
 	)
+	(property "KiLib_Generator" "package/gullwing"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -3.855 -7.8125)
 		(end 3.855 -7.8125)
@@ -202,11 +214,11 @@
 	)
 	(fp_poly
 		(pts
-			(xy -3.745 -6.7025)
-			(xy -3.745 7.7025)
-			(xy 3.745 7.7025)
-			(xy 3.745 -7.7025)
 			(xy -2.745 -7.7025)
+			(xy 3.745 -7.7025)
+			(xy 3.745 7.7025)
+			(xy -3.745 7.7025)
+			(xy -3.745 -6.7025)
 		)
 		(stroke
 			(width 0.1)
@@ -346,7 +358,7 @@
 		(roundrect_rratio 0.25)
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-20W_7.5x15.4mm_P1.27mm.step"
+	(model "${KICAD10_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-20W_7.5x15.4mm_P1.27mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

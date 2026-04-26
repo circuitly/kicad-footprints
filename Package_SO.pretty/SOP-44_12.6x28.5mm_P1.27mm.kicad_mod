@@ -1,8 +1,8 @@
 (footprint "SOP-44_12.6x28.5mm_P1.27mm"
-	(version 20241229)
+	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "SOP, 44 Pin (https://www.mxic.com.tw/Lists/Datasheet/Attachments/8177/MX23C6410,%205V,%2064Mb,%20v3.1.pdf#page=5), generated with kicad-footprint-generator ipc_gullwing_generator.py")
+	(descr "SOP, 44 Pin (https://www.mxic.com.tw/Lists/Datasheet/Attachments/8177/MX23C6410,%205V,%2064Mb,%20v3.1.pdf#page=5)")
 	(tags "SOP SO")
 	(property "Reference" "REF**"
 		(at 0 -15.2 0)
@@ -24,7 +24,19 @@
 			)
 		)
 	)
+	(property "KiLib_Generator" "package/gullwing"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_rect
 		(start -6.41 -14.36)
 		(end 6.41 14.36)
@@ -158,11 +170,11 @@
 	)
 	(fp_poly
 		(pts
-			(xy -6.3 -13.25)
-			(xy -6.3 14.25)
-			(xy 6.3 14.25)
-			(xy 6.3 -14.25)
 			(xy -5.3 -14.25)
+			(xy 6.3 -14.25)
+			(xy 6.3 14.25)
+			(xy -6.3 14.25)
+			(xy -6.3 -13.25)
 		)
 		(stroke
 			(width 0.1)
@@ -446,7 +458,7 @@
 		(roundrect_rratio 0.25)
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/SOP-44_12.6x28.5mm_P1.27mm.step"
+	(model "${KICAD10_3DMODEL_DIR}/Package_SO.3dshapes/SOP-44_12.6x28.5mm_P1.27mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

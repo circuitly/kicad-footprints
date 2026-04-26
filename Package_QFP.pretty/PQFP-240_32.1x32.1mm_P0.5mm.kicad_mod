@@ -1,8 +1,8 @@
 (footprint "PQFP-240_32.1x32.1mm_P0.5mm"
-	(version 20241229)
+	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "PQFP, 240 Pin (http://www.microsemi.com/index.php?option=com_docman&task=doc_download&gid=131095), generated with kicad-footprint-generator ipc_gullwing_generator.py")
+	(descr "PQFP, 240 Pin (http://www.microsemi.com/index.php?option=com_docman&task=doc_download&gid=131095)")
 	(tags "PQFP QFP")
 	(property "Reference" "REF**"
 		(at 0 -18.65 0)
@@ -24,7 +24,19 @@
 			)
 		)
 	)
+	(property "KiLib_Generator" "package/gullwing"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -16.16 -16.16)
 		(end -15.16 -16.16)
@@ -292,11 +304,11 @@
 	)
 	(fp_poly
 		(pts
-			(xy -16.05 -15.05)
-			(xy -16.05 16.05)
-			(xy 16.05 16.05)
-			(xy 16.05 -16.05)
 			(xy -15.05 -16.05)
+			(xy 16.05 -16.05)
+			(xy 16.05 16.05)
+			(xy -16.05 16.05)
+			(xy -16.05 -15.05)
 		)
 		(stroke
 			(width 0.1)
@@ -1756,7 +1768,7 @@
 		(roundrect_rratio 0.25)
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Package_QFP.3dshapes/PQFP-240_32.1x32.1mm_P0.5mm.step"
+	(model "${KICAD10_3DMODEL_DIR}/Package_QFP.3dshapes/PQFP-240_32.1x32.1mm_P0.5mm.step"
 		(offset
 			(xyz 0 0 0)
 		)
